@@ -39,25 +39,25 @@ async function getTodo(){
 
 export default async () =>{
 
-    const cache = new ModuleCache("todos")
+    // const cache = new ModuleCache("todos")
 
-    cache.set("text", null)
-    cache.set("is_done", null)
+    // cache.set("text", null)
+    // cache.set("is_done", null)
 
-    const value = await getTodo();
+    //const value = await getTodo();
 
-    let text = cache.get("text")
-    let is_done = cache.get("is_done")
+    // let text = cache.get("text")
+    // let is_done = cache.get("is_done")
 
-    if(text == null || is_done == null && text != value.text){
-        cache.set("text", value.text)
-        cache.set("is_done", value.is_done)
+    // if(text == null || is_done == null && text != value.text){
+    //     cache.set("text", value.text)
+    //     cache.set("is_done", value.is_done)
 
-        text = value.text
-        is_done = value.is_done
-    }
+    //     text = value.text
+    //     is_done = value.is_done
+    // }
 
-    let todos = {"text": text, "is_done": is_done}
+    let todos = await {"text": "TESTANDO", "is_done": "VOLTE E ARRUME O CÓDIGO DEPOIS"}
 
     return todos
 }

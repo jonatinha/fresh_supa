@@ -5,7 +5,7 @@ export default function Title(props: JSX.HTMLAttributes<HTMLDivElement>) {
     <div
       {...props}
       disabled={true}
-      class="text-amber-500 text-3xl font-bold"
+      class="text-gray-100 text-3xl font-bold"
     />
   );
 }

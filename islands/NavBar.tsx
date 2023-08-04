@@ -1,5 +1,4 @@
 import NavTitle from '@/components/NavTitle.tsx'
-import { Signal } from "@preact/signals";
 import { FadedButton } from "@/components/FadedButton.tsx";
 
 interface Props {
@@ -9,7 +8,7 @@ interface Props {
 export default function NavBar(props: Props) {
 
     return (
-        <div class="flex flex-row justify-between items-center h-16 px-2 shadow-md">
+        <div class="flex flex-row justify-between items-center h-16 px-2 shadow-md bg-gray-900">
             <NavTitle>{props.title}</NavTitle>
             <div>
                 {/* <DropMenu></DropMenu> */}

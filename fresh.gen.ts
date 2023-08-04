@@ -10,6 +10,7 @@ import * as $$0 from "./islands/Banner.tsx";
 import * as $$1 from "./islands/Card.tsx";
 import * as $$2 from "./islands/Counter.tsx";
 import * as $$3 from "./islands/NavBar.tsx";
+import * as $$4 from "./islands/PricingCard.tsx";
 
 const manifest = {
   routes: {
@@ -23,6 +24,7 @@ const manifest = {
     "./islands/Card.tsx": $$1,
     "./islands/Counter.tsx": $$2,
     "./islands/NavBar.tsx": $$3,
+    "./islands/PricingCard.tsx": $$4,
   },
   baseUrl: import.meta.url,
 };
