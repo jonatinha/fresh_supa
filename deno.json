@@ -24,7 +24,9 @@
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
     "$std/": "https://deno.land/std@0.193.0/",
-    "load": "https://deno.land/std/dotenv/mod.ts"
+    "load": "https://deno.land/std/dotenv/mod.ts",
+    "lunchbox": "https://deno.land/x/lunchbox@v0.2.0/mod.ts",
+    "mcache": "https://deno.land/x/module_cache/mod.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
