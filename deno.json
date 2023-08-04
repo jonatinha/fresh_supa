@@ -26,7 +26,8 @@
     "$std/": "https://deno.land/std@0.193.0/",
     "load": "https://deno.land/std/dotenv/mod.ts",
     "lunchbox": "https://deno.land/x/lunchbox@v0.2.0/mod.ts",
-    "mcache": "https://deno.land/x/module_cache/mod.ts"
+    "mcache": "https://deno.land/x/module_cache/mod.ts",
+    "supabase": "https://esm.sh/@supabase/supabase-js@2"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
